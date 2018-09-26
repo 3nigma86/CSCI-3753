@@ -1,0 +1,26 @@
+printf("check\n");
+			if(feof(inputfp)){  
+				filesComplete++;
+				threadComplete++;
+				fprintf(serviced, "Thread %ld serviced %d files.",syscall( __NR_gettid ),threadComplete);
+				for(i = 0; i < *numInput;i++){
+					if (strcmp(filename, inputFiles[i]) == 0){   
+						inputFiles[i][0] = '\0';            
+						printf("%s\n",inputFiles[i]);
+						break;
+					}
+				}
+			}
+		}
+	
+		if (filesComplete < *numInput){                                                    
+			for(i = 0; i < *numInput;i++){                    
+				if (inputFiles[i][0] != '\0'){
+					strncpy(filename, inputFiles[i], sizeof(inputFiles[i]));
+					printf("%s\n", filename);
+					printf("%d\n", *numInput);
+					break;
+					}
+				}
+			}
+		}

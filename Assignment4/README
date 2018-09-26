@@ -1,0 +1,14 @@
+All paging algorithms and code are built exactly as the original pager-basic.c was.  
+No modifications were made in the building and running of the programs.
+
+1) Place following files in local directory:
+	simulator.c
+	simulator.h
+	pager-lru.c
+	pager-predict.c
+	Makefile
+	api-test.c
+
+2) Open terminal and access directory containing files and run "make". Then "./test-predict" or 
+"./test-lru" depending on which file you wish to operate.   
+

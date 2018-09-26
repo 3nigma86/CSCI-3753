@@ -1,0 +1,243 @@
+
+
+With number of requestor threads = 1 and Number of resolver thread = 1...
+ID of requestor thread = 2039
+Hostnames processed = 108
+Total runtime = 5.192638 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 1...
+ID of resolver thread = 2040
+Hostnames processed = 103
+Total runtime = 5.194726 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 3...
+ID of requestor thread = 2042
+Hostnames processed = 108
+Total runtime = 1.956960 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 3...
+ID of resolver thread = 2044
+Hostnames processed = 26
+Total runtime = 2.008876 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 3...
+ID of resolver thread = 2043
+Hostnames processed = 55
+Total runtime = 2.015120 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 3...
+ID of resolver thread = 2045
+Hostnames processed = 24
+Total runtime = 2.034200 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 5...
+ID of requestor thread = 2047
+Hostnames processed = 108
+Total runtime = 1.123539 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 5...
+ID of resolver thread = 2049
+Hostnames processed = 29
+Total runtime = 1.171567 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 5...
+ID of resolver thread = 2051
+Hostnames processed = 14
+Total runtime = 1.181673 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 5...
+ID of resolver thread = 2052
+Hostnames processed = 12
+Total runtime = 1.183290 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 5...
+ID of resolver thread = 2048
+Hostnames processed = 33
+Total runtime = 1.191343 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 5...
+ID of resolver thread = 2050
+Hostnames processed = 19
+Total runtime = 1.227513 seconds
+
+
+
+With number of requestor threads = 1 and Number of resolver thread = 1...
+ID of requestor thread = 2121
+Hostnames processed = 108
+Total runtime = 6.018729 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 1...
+ID of resolver thread = 2122
+Hostnames processed = 103
+Total runtime = 6.018800 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 1...
+ID of requestor thread = 2708
+Hostnames processed = 108
+Total runtime = 19.826038 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 1...
+ID of resolver thread = 2709
+Hostnames processed = 103
+Total runtime = 22.476074 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 3...
+ID of requestor thread = 2838
+Hostnames processed = 108
+Total runtime = 0.301295 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 3...
+ID of resolver thread = 2840
+Hostnames processed = 21
+Total runtime = 0.339512 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 3...
+ID of resolver thread = 2839
+Hostnames processed = 53
+Total runtime = 0.341426 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 3...
+ID of resolver thread = 2841
+Hostnames processed = 31
+Total runtime = 0.345915 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 1...
+ID of requestor thread = 3303
+Hostnames processed = 108
+Total runtime = 18.318997 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 1...
+ID of resolver thread = 3304
+Hostnames processed = 103
+Total runtime = 18.318971 seconds
+
+With number of requestor threads = 3 and Number of resolver thread = 1...
+ID of requestor thread = 3310
+Hostnames processed = 20
+Total runtime = 1.998988 seconds
+
+With number of requestor threads = 3 and Number of resolver thread = 1...
+ID of requestor thread = 3333
+Hostnames processed = 9
+Total runtime = 1.754340 seconds
+
+With number of requestor threads = 3 and Number of resolver thread = 1...
+ID of requestor thread = 3352
+Hostnames processed = 81
+Total runtime = 8.193366 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 1...
+ID of requestor thread = 3361
+Hostnames processed = 108
+Total runtime = 21.790840 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 1...
+ID of resolver thread = 3362
+Hostnames processed = 103
+Total runtime = 22.214552 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 1...
+ID of requestor thread = 3384
+Hostnames processed = 108
+Total runtime = 7.090292 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 1...
+ID of resolver thread = 3385
+Hostnames processed = 103
+Total runtime = 7.096025 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 3...
+ID of requestor thread = 3426
+Hostnames processed = 108
+Total runtime = 2.718555 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 3...
+ID of resolver thread = 3428
+Hostnames processed = 23
+Total runtime = 2.718540 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 3...
+ID of resolver thread = 3429
+Hostnames processed = 49
+Total runtime = 2.777059 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 3...
+ID of resolver thread = 3427
+Hostnames processed = 33
+Total runtime = 2.784912 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 5...
+ID of requestor thread = 3433
+Hostnames processed = 108
+Total runtime = 0.573570 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 5...
+ID of resolver thread = 3438
+Hostnames processed = 16
+Total runtime = 0.642245 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 5...
+ID of resolver thread = 3434
+Hostnames processed = 20
+Total runtime = 0.643974 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 5...
+ID of resolver thread = 3437
+Hostnames processed = 30
+Total runtime = 0.642469 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 5...
+ID of resolver thread = 3436
+Hostnames processed = 12
+Total runtime = 0.667459 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 5...
+ID of resolver thread = 3435
+Hostnames processed = 29
+Total runtime = 0.816183 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 8...
+ID of requestor thread = 3440
+Hostnames processed = 108
+Total runtime = 0.266509 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 8...
+ID of resolver thread = 3448
+Hostnames processed = 18
+Total runtime = 0.407756 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 8...
+ID of resolver thread = 3447
+Hostnames processed = 20
+Total runtime = 0.407871 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 8...
+ID of resolver thread = 3442
+Hostnames processed = 17
+Total runtime = 0.415980 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 8...
+ID of resolver thread = 3446
+Hostnames processed = 17
+Total runtime = 0.419956 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 8...
+ID of resolver thread = 3445
+Hostnames processed = 14
+Total runtime = 0.425332 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 8...
+ID of resolver thread = 3441
+Hostnames processed = 4
+Total runtime = 0.425268 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 8...
+ID of resolver thread = 3443
+Hostnames processed = 17
+Total runtime = 0.421084 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 8...
+ID of resolver thread = 3444
+Hostnames processed = 6
+Total runtime = 0.448462 seconds

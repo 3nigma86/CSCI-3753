@@ -1,0 +1,10 @@
+LOG :Thread 3440 serviced 1 files.
+
+LOG :Thread 3440 serviced 2 files.
+
+LOG :Thread 3440 serviced 3 files.
+
+LOG :Thread 3440 serviced 4 files.
+
+LOG :Thread 3440 serviced 5 files.
+

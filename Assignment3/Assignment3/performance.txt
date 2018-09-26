@@ -1,0 +1,79 @@
+
+
+With number of requestor threads = 1 and Number of resolver thread = 1...
+ID of requestor thread = 2039
+Hostnames processed = 108
+Total runtime = 5.192638 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 1...
+ID of resolver thread = 2040
+Hostnames processed = 103
+Total runtime = 5.194726 seconds
+
+--------------------------------------------------------------------------------
+
+With number of requestor threads = 1 and Number of resolver thread = 3...
+ID of requestor thread = 2042
+Hostnames processed = 108
+Total runtime = 1.956960 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 3...
+ID of resolver thread = 2044
+Hostnames processed = 26
+Total runtime = 2.008876 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 3...
+ID of resolver thread = 2043
+Hostnames processed = 55
+Total runtime = 2.015120 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 3...
+ID of resolver thread = 2045
+Hostnames processed = 24
+Total runtime = 2.034200 seconds
+
+---------------------------------------------------------------------------------
+
+With number of requestor threads = 1 and Number of resolver thread = 5...
+ID of requestor thread = 2047
+Hostnames processed = 108
+Total runtime = 1.123539 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 5...
+ID of resolver thread = 2049
+Hostnames processed = 29
+Total runtime = 1.171567 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 5...
+ID of resolver thread = 2051
+Hostnames processed = 14
+Total runtime = 1.181673 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 5...
+ID of resolver thread = 2052
+Hostnames processed = 12
+Total runtime = 1.183290 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 5...
+ID of resolver thread = 2048
+Hostnames processed = 33
+Total runtime = 1.191343 seconds
+
+With number of requestor threads = 1 and Number of resolver thread = 5...
+ID of resolver thread = 2050
+Hostnames processed = 19
+Total runtime = 1.227513 seconds
+
+
+	I was unable to generate 6 complete runs with the different scenarios so I'll just
+look at the ones I was able to achieve which were any with multiple resolver threads.  The
+Multiple requestor threads continued to give mutex errors that I am not entirely sure are
+because of bad code.  I looked up the error and saw that it generally was generated when
+one thread tried to unlock the mutex of another thread, which according to my code is 
+impossible.  It is clear to see above with the different number of threads that the increase
+in thread number even just for the resolvers greatly impacted the overall run time of the 
+program.  I was not sure if I needed to include the runtime of the entire program on here,
+but as per the pdf it is generated to stdout at the end of the program execution.  Here,
+however I passed in the time that each individual thread ran.  One thread each ran a little 
+over 5 seconds, but even increasing the resolvers to 2 threads greatly improved, cutting the 
+time for each thread in less than half.  With 5 it improved to just over a second for execution.
